@@ -144,6 +144,12 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
+# Felica
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/felica/common.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/common.cfg \
+    $(LOCAL_PATH)/configs/felica/mfm.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfm.cfg \
+    $(LOCAL_PATH)/configs/felica/mfs.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfs.cfg
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
