@@ -374,7 +374,7 @@ TARGET_BOARD_PLATFORM := mt6855
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr
+    android.hardware.power-service.pixel-libperfmgr
 
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
